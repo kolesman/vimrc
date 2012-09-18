@@ -9,7 +9,7 @@ $(HOME)/.vimrc: vimrc
 	ln -sf $(abspath $<) $@
 
 vundle: submodule
-	vim -c ':BundleInstall' -c ':qall'
+	vim +BundleInstall +qall
 
 submodule:
 	git submodule update --init --recursive
