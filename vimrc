@@ -15,6 +15,6 @@ filetype plugin indent on " обязательно!
 set number
 
 set t_Co=256
-"colorscheme desert256
+colorscheme desert256
 
 set mouse=a
