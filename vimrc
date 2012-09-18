@@ -11,7 +11,6 @@ Bundle 'git://github.com/klen/python-mode.git'
 filetype plugin indent on " обязательно!
 
 
-
 set number
 
 set t_Co=256
