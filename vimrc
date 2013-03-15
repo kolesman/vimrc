@@ -21,3 +21,5 @@ colorscheme desert256
 set mouse=a
 
 syntax on
+
+set bs=2
