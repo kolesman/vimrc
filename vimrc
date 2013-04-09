@@ -12,6 +12,7 @@ Bundle 'git://github.com/danro/rename.vim.git'
 filetype plugin indent on
 
 let g:pymode_lint_ignore = "W402,E501"
+let g:pymode_folding = 0
 
 set number
 
