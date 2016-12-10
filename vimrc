@@ -11,7 +11,7 @@ Bundle 'git://github.com/danro/rename.vim.git'
 
 filetype plugin indent on
 
-let g:pymode_lint_ignore = "W402,E501"
+let g:pymode_lint_ignore = "W402,E501,C901"
 let g:pymode_folding = 0
 
 let g:pymode_rope_lookup_project = 0
@@ -30,3 +30,11 @@ syntax on
 set bs=2
 
 set completeopt=menu
+
+set colorcolumn=120
+
+set tabstop=2
+set expandtab
+
+set pastetoggle=<F2>
+autocmd BufRead *.py setlocal colorcolumn=0
